@@ -7,7 +7,7 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "sass"
+          "style": "scss"
         }
       },
       "root": "",
@@ -28,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -92,7 +92,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.scss"
             ],
             "scripts": []
           }
@@ -127,6 +127,6 @@
   },
   "defaultProject": "example-angular-popup",
   "cli": {
-    "analytics": "82049d80-47d5-4af3-86e7-830ea2aab112"
+    "analytics": "2c3c1622-ad79-4db9-bb42-38f1e601c9a4"
   }
 }
