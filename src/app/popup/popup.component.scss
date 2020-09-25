@@ -1,0 +1,46 @@
+:host {
+   .modal {
+      width: 100%;
+      height: 100%;
+      font-family: 'Montserrat', sans-serif;
+      background-color: rgba(0, 0, 0, 0.123);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .modal__container {
+         .modal__content {
+            width: 500px;
+            height: 300px;
+            margin: 0 auto;
+            padding: 1rem;
+            background: #2197acd2;
+            box-shadow: inset 20px 20px 60px #1c8092, inset -20px -20px 60px #26aec6;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+            border-radius: 10px;
+            .modal__text {
+               position: relative;
+               h1 {
+                  margin: 0;
+                  padding-top: 1rem;
+                  text-align: center;
+                  font-size: 14rem;
+                  color: #153a40;
+               }
+               span {
+                  font-size: 2rem;
+                  font-weight: 600;
+                  margin-right: 13px;
+                  color: #153a40;
+                  position: absolute;
+                  top: 0;
+                  right: 0;
+                  cursor: pointer;
+               }
+               span:hover {
+                  color: #823746;
+               }
+            }
+         }
+      }
+   }
+}

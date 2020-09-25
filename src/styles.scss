@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+   height: 100%;
+   margin: 0;
+}
+body {
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+   width: 100%;
+   background: url('./assets/img/la-guia-del-autoestopista-galactico.jpg') no-repeat center;
+   background-size: cover;
+}

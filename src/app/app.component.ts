@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'example-angular-popup';
+
+  myModal = false;
+
+  mostrarModal() {
+    this.myModal = true;
+  }
+
+  cerrarModal(event) {
+    this.myModal = event;
+  }
+
 }
