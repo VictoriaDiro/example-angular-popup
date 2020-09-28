@@ -1,12 +1,14 @@
-button {
-   font-size: 2rem;
-   margin-top: 100px;
-   margin-left: 13%;
-   margin-right: 13%;
-   padding: 20px;
-   color: #d0eef1;
-   background: #2197ac9f;
-   box-shadow: inset 20px 20px 60px #1c8092, inset -20px -20px 60px #26aec6;
-   border: none;
-   border-radius: 10px;
+.button__container {
+   display: flex;
+   justify-content: center;
+   button {
+      font-size: 2rem;
+      margin: 150px 10px 0px 10px;
+      padding: 20px;
+      color: #d0eef1;
+      background: #2197ac9f;
+      box-shadow: inset 20px 20px 60px #1c8092, inset -20px -20px 60px #26aec6;
+      border: none;
+      border-radius: 10px;
+   }
 }

@@ -1,5 +1,7 @@
-<app-popup [visible]="myModal" (close)="cerrarModal($event)"></app-popup>
+<app-popup [visible]="myModal" (close)="cerrarModal($event)">
+   <ng-content></ng-content>
+</app-popup>
 
-<button (click)="mostrarModal()">Pulsa para conocer el sentido de la vida, el universo y todo lo demás</button>
-
-<!-- *ngIf="myModal = true [hidden] -->
+<div class="button__container">
+   <button (click)="mostrarModal()">Pulsa para conocer el sentido de la vida, el universo y todo lo demás</button>
+</div>
