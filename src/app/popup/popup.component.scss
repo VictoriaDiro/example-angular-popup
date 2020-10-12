@@ -26,6 +26,9 @@
                   text-align: center;
                   font-size: 14rem;
                   color: #153a40;
+                  @media (max-width: 500px) {
+                     font-size: 9rem;
+                  }
                }
                span {
                   font-size: 2rem;

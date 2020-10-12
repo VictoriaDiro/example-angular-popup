@@ -10,5 +10,8 @@
       box-shadow: inset 20px 20px 60px #1c8092, inset -20px -20px 60px #26aec6;
       border: none;
       border-radius: 10px;
+      @media (max-width: 500px) {
+         font-size: 1.5rem;
+      }
    }
 }
